@@ -1,6 +1,7 @@
 import java.util.Objects;
 import org.jsfml.graphics.RenderWindow;
 import org.jsfml.window.Keyboard;
+import org.jsfml.graphics.Text;
 
 public class Pacman {
     private int x;
@@ -141,5 +142,16 @@ public class Pacman {
             x = nextX;
             y = nextY;
         }
+    }
+    public int wonOrLost(Food smallFood, Food bigFood, Text result) {
+        int f = 1;
+        if (smallFood.getCount() == 0 && bigFood.getCount() == 0) {
+            result.setString("You won! ");
+        } else if (lives == 0) {
+            result.setString("You lost! ");
+        } else {
+            f = 0;
+        }
+        return f;
     }
 }
