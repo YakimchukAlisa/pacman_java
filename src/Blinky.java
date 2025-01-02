@@ -1,4 +1,5 @@
 import org.jsfml.graphics.RenderWindow;
+import org.jsfml.graphics.Color;
 
 public class Blinky extends Ghost {
 

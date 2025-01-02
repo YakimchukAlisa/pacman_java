@@ -1,6 +1,7 @@
-import java.awt.*;
+
 import org.jsfml.graphics.RenderWindow;
 import org.jsfml.graphics.RectangleShape;
+import org.jsfml.graphics.Color;
 import org.jsfml.system.Vector2f;
 import static java.lang.Double.POSITIVE_INFINITY;
 

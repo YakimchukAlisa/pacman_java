@@ -1,4 +1,4 @@
-import java.awt.*;
+import org.jsfml.graphics.Color;
 
 public class GameSettings {
     private String windowTitle;

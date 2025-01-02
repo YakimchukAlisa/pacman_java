@@ -6,7 +6,6 @@ import org.jsfml.graphics.RenderWindow;
 import org.jsfml.graphics.RectangleShape;
 import org.jsfml.graphics.CircleShape;
 import org.jsfml.system.Vector2f;
-
 import org.jsfml.system.Clock;
 import org.jsfml.window.VideoMode;
 import org.jsfml.window.event.Event;
