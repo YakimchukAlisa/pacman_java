@@ -1,6 +1,5 @@
 import org.jsfml.graphics.RenderWindow;
 
-
 public class Pinky extends Ghost {
 
     public Pinky() {

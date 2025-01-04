@@ -1,14 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.awt.*;
-import org.jsfml.graphics.Color;
-import org.jsfml.graphics.RenderWindow;
-import org.jsfml.graphics.RectangleShape;
-import org.jsfml.graphics.CircleShape;
-import org.jsfml.system.Vector2f;
-import org.jsfml.system.Clock;
-import org.jsfml.window.VideoMode;
-import org.jsfml.window.event.Event;
+import org.jsfml.graphics.*;
+import org.jsfml.system.*;
 
 public class Map {
     private int H;

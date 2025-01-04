@@ -1,7 +1,6 @@
 import java.util.Objects;
-import org.jsfml.graphics.RenderWindow;
-import org.jsfml.window.Keyboard;
-import org.jsfml.graphics.Text;
+import org.jsfml.graphics.*;
+import org.jsfml.window.*;
 
 public class Pacman {
     private int x;

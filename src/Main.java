@@ -3,13 +3,7 @@ import org.jsfml.window.*;
 import org.jsfml.system.*;
 import java.io.IOException;
 import java.nio.file.Files;
-
 import org.jsfml.window.event.Event;
-import org.jsfml.system.Time;
-import org.jsfml.window.Keyboard;
-import org.jsfml.window.VideoMode;
-import org.jsfml.window.Window;
-import org.jsfml.graphics.RenderWindow;
 import java.util.Random;
 import java.util.ArrayList;
 import java.util.List;
@@ -130,10 +124,7 @@ public class Main {
                         pacman.setNextDirection(3);
 
                     }
-
                 }
-
-
             }
 
             pointsText.setString("Score " + pacman.getPoints());
